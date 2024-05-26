@@ -1,0 +1,12 @@
+{
+    "name": "increase-tile-stack-size",
+    "version": "0.0.1",
+    "factorio_version": "1.1",
+    "title": "Increase Tile Stack Size",
+    "author": "Simon Barkehanai",
+    "homepage": "",
+    "description": "Increase the stack sizes of placable tiles",
+    "dependencies": [
+        "base >= 1.1.0"
+    ]
+}
