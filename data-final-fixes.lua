@@ -11,3 +11,9 @@ for _, item in pairs(data.raw["item"]) do
         maybe_increase_stack_size(item)
     end
 end
+
+for _, tile in pairs(data.raw["tile"]) do
+    if tile.decorative_removal_probability and tile.decorative_removal_probability > 0 then
+        tile.decorative_removal_probability = 1
+    end
+end
